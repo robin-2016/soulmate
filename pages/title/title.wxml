@@ -1,0 +1,12 @@
+<!--pages/title/title.wxml-->
+<view class='page'>
+  <view class='page_hd'>
+    <view class='weui-flex'>
+      <view class="weui-flex__item" catchtap='bindFunc'>
+        <view class='placeholder' data-vid='1'>走过的路</view>
+        <view class='placeholder' data-vid='2'>爱过的人</view>
+        <view class='placeholder' data-vid='3'>读过的书</view>
+      </view>
+    </view>
+  </view>
+</view>

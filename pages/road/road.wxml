@@ -1,0 +1,3 @@
+<!--pages/dati/dati.wxml-->
+<import src='/templates/dati/dati.wxml'/>
+<template is='dati' data='{{...road}}'></template>

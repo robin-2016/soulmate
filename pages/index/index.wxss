@@ -1,0 +1,36 @@
+/**index.wxss**/
+@import "/lib/weui.wxss";
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.changeUserInfo{
+  color: #aaa;
+  margin-top: 2rpx;
+  font-size: 30rpx;
+}
+.pipei{
+  height: 120rpx;
+  background-color: white;
+  align-items: center;
+  border-radius:20rpx;
+  margin: 16rpx 12rpx 8rpx 12rpx;
+  line-height: 120rpx;
+}
+.pipeiText{
+  margin-left: 45rpx;
+    /* color: white;   */
+}
+.baozhao{
+  display: flex;
+  flex-direction: row;
+}

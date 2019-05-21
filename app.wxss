@@ -1,0 +1,23 @@
+/**app.wxss**/
+page{
+  /* background-color: #F8F8F8; */
+  background-color: #EEEEEE;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10rpx 0;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius:20rpx;
+  margin: 0 12rpx 0 12rpx;
+}
+.inputView{
+    border:  1rpx solid;
+    border-radius: 20rpx;
+    margin-left: 25rpx;
+    margin-right: 25rpx;
+    margin-top: 25rpx;
+}

@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/bigdata/bigdata",
+    "pages/userinfo/userinfo",
+    "pages/message/message",
+    "pages/road/road",
+    "components/baozhao/baozhao",
+    "pages/title/title",
+    "pages/share/share"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EEEEEE",
+    "navigationBarTitleText": "灵魂匹配",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "selectedIconPath": "pages/images/first1.png",
+        "iconPath": "pages/images/first2.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "selectedIconPath": "pages/images/mess1.png",
+        "iconPath": "pages/images/mess2.png"
+      }
+    ]
+  }
+}

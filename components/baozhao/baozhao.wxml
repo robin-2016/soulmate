@@ -1,0 +1,13 @@
+<!--components/baozhao/baozhao.wxml-->
+<view class='photos' style='background-image:url({{bzphoto}});'>
+  <view class='h'></view>
+  <view class='wenzi'>
+    <view class='siliao'>语音私聊</view>
+    <view>{{qianming}}</view>
+    <view class='info'>
+      <view class='name'>{{name}}</view>
+      <view class='where'>{{where}}</view>
+    </view>
+    <slot></slot>
+  </view>
+</view>

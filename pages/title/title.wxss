@@ -1,0 +1,12 @@
+/* pages/title/title.wxss */
+@import "/lib/weui.wxss";
+.placeholder{
+    margin: 20px;
+    padding: 0 15px;
+    text-align: center;
+    background-color: white;
+    height: 3em;
+    line-height: 3em;
+    color: black;
+    border-radius:10rpx;
+}

@@ -1,0 +1,23 @@
+<!--pages/bigdata/bigdata.wxml-->
+<view class='page'>
+  <view class='page_hd'>
+    <form bindsubmit='formSubmit'>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__bd">
+            <input class='weui-input' name='name' focus placeholder='请输入您在知乎平台的昵称'></input>
+          </view>
+        </view>
+      </view>
+      <view class='page__desc'>
+        <view>温馨提示：</view>
+        <view>1.在输入框中填入你的昵称</view>
+        <view>2.点击确认按钮</view>
+        <view>3.系统将根据您输入的昵称为您匹配一位异性用户</view>
+      </view>
+      <view>
+        <button class='weui-btn' type='primary' form-type='submit'>确认</button>
+      </view>
+    </form>
+  </view>
+</view>

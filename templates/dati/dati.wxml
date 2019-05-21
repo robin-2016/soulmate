@@ -1,0 +1,25 @@
+<template name='dati'>
+  <view class='page'>
+    <view class='page_hd'>
+      <view>
+        <progress percent="{{progress}}" stroke-width="6" />
+      </view>
+      <view class="title eui-cells__title">
+        {{title}}
+      </view>
+      <view>
+        <radio-group class="radio-group" bindchange='radioChange'>
+          <radio class="radio" wx:for='{{option}}' value='{{item.value}}' checked='{{item.checked}}'>
+            <text>{{item.name}}</text>
+          </radio>
+        </radio-group>
+      </view>
+    </view>
+  </view>
+  <view wx:if='{{i < 5}}' class='page_hd'>  
+    <button class='weui-btn' bindtap='nextTitle' type='primary'>下一题</button>
+  </view>
+  <view wx:else' class='page_hd'>
+  <button class='weui-btn' bindtap='nextTitle' type='primary'>确定</button>
+  </view>
+</template>

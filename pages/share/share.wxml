@@ -1,0 +1,15 @@
+<!--pages/share/share.wxml-->
+<view class='page'>
+  <view class='page_hd'>
+    <canvas class='canvas' id='shareCanvas' canvas-id='shareCanvas'></canvas>
+    <view class='share'>
+    <view class='share-next'></view>
+      <view class='save' bindtap='savePhoto'>
+        保存分享照片
+      </view>
+      <view class='save' bindtap='pipei'>
+        异性匹配
+      </view>
+    </view>
+  </view>
+</view>

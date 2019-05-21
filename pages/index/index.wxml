@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class='page'>
+  <view class="container">
+    <view class="userinfo">
+      <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+      <block wx:else>
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <text>{{userInfo.nickName}}</text>
+        <text class="changeUserInfo">点击头像编辑个人信息</text>
+      </block>
+    </view>
+  </view>
+  <view class='pipei' bindtap="bindBigdata">
+    <text class='pipeiText'>大数据匹配</text>
+  </view>
+  <view class='pipei' bindtap='bindDati'>
+    <text class='pipeiText'>答题匹配</text>
+  </view>
+  <view class='pipei' bindtap='bindBaozhao'>
+    <text class='pipeiText'>爆照匹配</text>
+  </view>
+  <block wx:for='{{photos}}'>
+    <view class='baozhao'>
+      <block wx:for='{{item.data}}'>
+        <baozhao-Comp bzphoto='{{item.bzphoto}}' qianming='{{item.qianming}}' name='{{item.name}}' where='{{item.where}}'></baozhao-Comp>
+      </block>
+    </view>
+  </block>
+</view>

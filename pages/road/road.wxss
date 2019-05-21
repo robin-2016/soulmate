@@ -1,0 +1,14 @@
+/* pages/dati/dati.wxss */
+@import '/lib/weui.wxss';
+.title{
+  padding-top: 10px;
+  /* margin-top: 15rpx; */
+}
+.radio-group {
+  border-bottom: 1px solid #ddd;
+}
+.radio {
+  display: block;
+  border-top: 1px solid #ddd;
+  padding: 5px;
+}
